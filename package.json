@@ -1,0 +1,8 @@
+{
+  "name": "aoc_2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LucaSchwan/aoc_2022.git",
+  "author": "Luca Schwan <schwan.luc@gmail.com>",
+  "license": "MIT"
+}
