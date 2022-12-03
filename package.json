@@ -6,6 +6,7 @@
   "author": "Luca Schwan <schwan.luc@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.11.10",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.45.0",
     "eslint": "^8.0.1",
@@ -13,6 +14,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "ts": "ts-node"
   }
 }
