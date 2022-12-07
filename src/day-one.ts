@@ -3,10 +3,11 @@ import { loadInput } from './std';
 // set up
 const input = loadInput('day-one');
 const inputArr = input.split('\n');
+
 let elfCalories = [0];
 
 let elfIndex = 0;
-inputArr.forEach((calorie: string) => {
+inputArr.forEach((calorie) => {
   if (calorie == '') {
     elfIndex++;
     elfCalories.push(0);

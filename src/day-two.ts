@@ -33,7 +33,7 @@ inputArr.forEach((round: string) => {
 
 let scoreTwo = 0;
 
-inputArr.forEach((round: string) => {
+inputArr.forEach((round) => {
   const elfChoice = round.split(' ')[0];
   const outcome = round.split(' ')[1];
 
