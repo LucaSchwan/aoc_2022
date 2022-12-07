@@ -23,6 +23,7 @@ console.log(
 The elf carrying the most calories carries ${elfCalories[0]} calories.
 
 --- Part Two ---
-The top three elves are carrying ${elfCalories[0] + elfCalories[1] + elfCalories[2]
+The top three elves are carrying ${
+    elfCalories[0] + elfCalories[1] + elfCalories[2]
   } calories`
 );
